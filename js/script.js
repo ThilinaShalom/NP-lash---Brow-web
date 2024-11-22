@@ -23,6 +23,6 @@ function callUs() {
  // Function for Book Online button
  function bookOnline() {
    // Replace with the URL of your booking page
-   window.location.href = 'https://www.fresha.com/book-now/np-lash-and-brow-beauty-qr2o1eel/services?lid=1195645&eid=2802865&pId=1134435';
+   window.open('https://www.fresha.com/book-now/np-lash-and-brow-beauty-qr2o1eel/services?lid=1195645&eid=2802865&pId=1134435', '_blank');
  }
  
