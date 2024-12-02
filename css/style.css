@@ -227,6 +227,7 @@ section{
 
 .about .row .content p{
     font-size: 1.7rem;
+    text-align: justify;
     color:#444;
     padding:1rem 0;
     line-height: 1.8;
