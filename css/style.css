@@ -823,7 +823,12 @@ section{
     .home .content h3{
         font-size: 5.5rem;
     }
-
+    .about .row .content h4{
+        font-size: 1.8rem;
+        color:black;
+        background-color: rgba(245, 245, 245, 0.8); /* whitesmoke with opacity */
+        border-radius: 10px;
+    }
 
 }
 
