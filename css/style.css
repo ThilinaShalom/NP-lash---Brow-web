@@ -221,15 +221,17 @@ section{
     color:var(--primary-color);
 }
 .about .row .content h4{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     color:var(--black);
 }
 
 .about .row .content p{
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     color:#444;
     padding:1rem 0;
     line-height: 1.8;
+    background-color: rgba(245, 245, 245, 0.8); /* whitesmoke with opacity */
+    border-radius: 10px;
 }
 
 .about .content .icons-container{
