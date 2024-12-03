@@ -225,11 +225,11 @@ section{
     color:var(--black);
 }
 
-.about .row .content p{
+.about .row .content p {
     font-size: 1.7rem;
     text-align: justify;
-    color:#444;
-    padding:1rem 0;
+    color: #444;
+    padding: 1rem 2rem; /* added padding for left and right */
     line-height: 1.8;
     background-color: rgba(245, 245, 245, 0.8); /* whitesmoke with opacity */
     border-radius: 10px;
@@ -825,8 +825,9 @@ section{
     }
     .about .row .content h4{
         font-size: 1.8rem;
+        padding: 1rem 2rem; /* added padding for left and right */
         color:black;
-        background-color: rgba(245, 245, 245, 0.8); /* whitesmoke with opacity */
+        background-color: rgba(245, 245, 245, 0.9); /* whitesmoke with opacity */
         border-radius: 10px;
     }
 
