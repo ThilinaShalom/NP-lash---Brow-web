@@ -584,33 +584,16 @@ section{
 }
 
 .visit .row{
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    gap: 2rem;
+    justify-content: center;
 }
-
-.visit .row .image{
-    -webkit-box-flex: 1;
-        -ms-flex: 1 1 40rem;
-            flex: 1 1 40rem;
-}
-
-.visit .row .image img{
-    width: 100%;
-}
-
 
 .visit .row form{
-    flex: 1 1 40rem;
+    width: 50%;
     border: 0.1rem solid var(--main-color);
     padding: 2rem;
 }
+
 
 .visit .row form h3{
     font-size: 2.5rem;
@@ -771,7 +754,11 @@ section{
      section{
         padding:3rem 2rem;
      }
-
+     
+     .visit .row form{
+        width: 50%;
+    }
+    
 }
 
 @media (max-width:768px){
