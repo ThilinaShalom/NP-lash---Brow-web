@@ -384,6 +384,7 @@ section{
     background: linear-gradient(to right, #ff7e5f, #feb47b); /* gradient colors */
     -webkit-background-clip: text;
     color: transparent;
+    background-color: rgba(245, 245, 245, 0.8); /* whitesmoke with opacity */
     margin-bottom: 3rem;
     border-radius: 10px;
     font-size: 4.5rem;
