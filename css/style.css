@@ -818,6 +818,10 @@ section{
         border-radius: 10px;
     }
 
+    .visit .row form{
+        width: 50%;
+    }
+
 }
 
 @media (max-width:450px){
