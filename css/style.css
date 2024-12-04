@@ -85,11 +85,21 @@ section{
     z-index: 1000;
 }
  
-.header .logo{
-    font-size: 2.5rem;
+.header .logotxt{
+    font-size: 1.8rem;
     font-weight: bolder;
     color:var(--black);
     text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    margin-left: -47%;
+}
+ 
+.header .logo img{
+    width: 30%;
+    height: 30%;
+    margin-right: auto;
+    object-fit: cover;
 }
 
 .header .navbar #close-navbar {
@@ -749,6 +759,9 @@ section{
     .header .navbar a {
         font-size: 1.7rem;
     }
+    .header .logotxt{
+        margin-left: -37%;
+    }
   
      section{
         padding:3rem 2rem;
@@ -806,10 +819,15 @@ section{
         text-align: center;
         font-size: 2rem;
       }
+      .header .logotxt{
+        margin-left: -89%;
+    }
 
     .home .content h3{
         font-size: 5.5rem;
     }
+
+    
     .about .row .content h4{
         font-size: 1.8rem;
         padding: 1rem 2rem; /* added padding for left and right */
@@ -822,6 +840,8 @@ section{
         width: 100%;
     }
 
+
+
 }
 
 @media (max-width:450px){
@@ -832,6 +852,10 @@ section{
 
     .home .content h3{
         font-size: 4.5rem;
+    }
+
+    .header .logotxt{
+        margin-left: -81%;
     }
 
 }
