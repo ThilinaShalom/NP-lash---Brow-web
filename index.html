@@ -551,45 +551,38 @@
 <!-- visit -->
 
 <section class="visit" id="visit">
-  <br><br><br><br><br>
+    <br><br><br><br><br>
 
-    <!-- <h1 class="heading" style="color: var(--main-color)"> book now. </h1> -->
-
-        <div class="row">
-    
-            <form action="">
-                <h3>book your appointment</h3>
-                <div class="inputBox">
-                    <input type="text" placeholder="Your name" required>
-                </div>
-                <div class="inputBox">
-                    <input type="email" placeholder="Your e-mail" required>
-                </div>
-                <div class="inputBox">
-                    <select name="subject" id="subject" required>
-                        <option value="" disabled selected>Choose a subject</option>
-                        <option value="Lashes set 01">Lashes set 01</option>
-                        <option value="Lashes set 02">Lashes set 02</option>
-                        <option value="Extras">Extras</option>
-                        <option value="Others">Others</option>
-                    </select>
-                </div>
-                <div class="inputBox">
-                    <input type="text" placeholder="Message">
-                </div>
-    
-    
-                <input type="submit" value="Send a Massage" class="btn">
-            </form>
-    
-            <!--<div class="image">
-                <img src="images/contact.png" alt="">
-            </div>-->
-            
-        </div>
-        <br><br><br><br><br>
-
+    <div class="row">
+        <form id="appointmentForm" action="https://api.web3forms.com/submit" method="POST">
+            <h3>Book Your Appointment</h3>
+            <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE"> <!-- Replace with your access key -->
+            <div class="inputBox">
+                <input type="text" name="name" placeholder="Your name" required>
+            </div>
+            <div class="inputBox">
+                <input type="email" name="email" placeholder="Your e-mail" required>
+            </div>
+            <div class="inputBox">
+                <select name="subject" id="subject" required>
+                    <option value="" disabled selected>Choose a subject</option>
+                    <option value="Lashes set 01">Lashes set 01</option>
+                    <option value="Lashes set 02">Lashes set 02</option>
+                    <option value="Extras">Extras</option>
+                    <option value="Others">Others</option>
+                </select>
+            </div>
+            <div class="inputBox">
+                <input type="text" name="message" placeholder="Message">
+            </div>
+            <input type="submit" value="Send a Message" class="btn">
+        </form>
+        <div id="result"></div> <!-- This will display the result of the submission -->
+    </div>
+    <br><br><br><br><br>
 </section>
+
+
 
 <!-- visit end-->
 
