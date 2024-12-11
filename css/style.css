@@ -622,6 +622,11 @@ section{
     border:var(--border);
 }
 
+
+.visit .row form .inputBox input::placeholder{
+    color:var(--black);
+}
+
 .visit .row form .inputBox input{
     width: 100%;
     padding:2rem;

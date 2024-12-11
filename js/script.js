@@ -16,8 +16,8 @@ window.onscroll = () => {
 
 // Function for Call Us button
 function callUs() {
-   // Redirect to WhatsApp with the specified link
-   window.location.href = 'https://api.whatsapp.com/send?phone=%2B61403233738&context=ARAB-P5S7s0-4ajwGPBTdt03h5xRlBe8upx73tgdKzVP_lnEdtbfBqB3I6CJ5e3cAEpjrd04-k_Z6_OHQwCGk0QcIv-B60G-qwcd6N_f03dg-WiADCp534uq-kfLxPeK1uC1nYUOCHCA1pgj9ziozMY&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwY2xjawHD5MhleHRuA2FlbQIxMAABHXfeRNSn4mJ-K0IWzmhSPkGscgawame0kYbwaXZNsrw4IJ4nKDPLRCWhBw_aem_sHVs_Xl7zRZjgTFl_G5M9Q';
+   // Open in new tab
+   window.open('https://api.whatsapp.com/send?phone=%2B61403233738&context=ARAB-P5S7s0-4ajwGPBTdt03h5xRlBe8upx73tgdKzVP_lnEdtbfBqB3I6CJ5e3cAEpjrd04-k_Z6_OHQwCGk0QcIv-B60G-qwcd6N_f03dg-WiADCp534uq-kfLxPeK1uC1nYUOCHCA1pgj9ziozMY&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwY2xjawHD5MhleHRuA2FlbQIxMAABHXfeRNSn4mJ-K0IWzmhSPkGscgawame0kYbwaXZNsrw4IJ4nKDPLRCWhBw_aem_sHVs_Xl7zRZjgTFl_G5M9Q', '_blank');
 }
  
 // Function for Book Online button
