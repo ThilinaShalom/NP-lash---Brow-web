@@ -231,12 +231,13 @@ section{
     color:var(--primary-color);
 }
 .about .row .content h4{
-    font-size: 1.8rem;
+    font-size: 2rem;
     color:var(--black);
+    text-align: center;
 }
 
 .about .row .content p {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     text-align: justify;
     color: #444;
     padding: 1rem 2rem; /* added padding for left and right */
@@ -750,6 +751,31 @@ section{
   }
 
 
+
+
+/* media queries  */
+
+@media (max-width:1440px) {
+    .header .logotxt {
+     
+      margin-left:-44% ;
+    }    
+  }
+@media (max-width:1280px) {
+    .header .logotxt {
+      
+      margin-left:-38% ;
+    }    
+  }
+
+@media (max-width:1024px) {
+    .header .logotxt {
+      font-size: 1.6rem; 
+      margin-left:-22% ;
+    }    
+  }
+
+
 @media (max-width:991px){
 
     html{
@@ -771,6 +797,12 @@ section{
         width: 50%;
     }
     
+}
+
+@media (max-width:820px){
+    .header .logotxt{
+        margin-left: -33%;
+    }
 }
 
 @media (max-width:768px){
@@ -844,6 +876,17 @@ section{
 
 }
 
+
+
+
+@media (max-width:540px){
+
+    .header .logotxt{
+        margin-left: -85%;
+    }
+
+}
+
 @media (max-width:450px){
 
     html{
@@ -856,6 +899,28 @@ section{
 
     .header .logotxt{
         margin-left: -81%;
+    }
+
+}
+
+@media (max-width:412px) {
+    .header .logotxt {
+      margin-left: -82%; 
+    }    
+}
+
+@media (max-width:375px) {
+    .header .logotxt {
+      
+      margin-left:-80% ;
+    }    
+}
+
+
+@media (max-width:344px){
+
+    .header .logotxt{
+        margin-left: -81%;   
     }
 
 }
